@@ -1,0 +1,16 @@
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td{
+  padding: 10px 30px;
+}
+th:nth-child(odd) {
+  background-color: rgba(23, 23, 23, 0.5);
+}
+td:nth-child(odd){
+	background-color: rgba(23, 23, 23, 0.5);
+}
+tr:nth-child(odd) {
+	background-color: rgba(23, 23, 23, 0.5);
+}
